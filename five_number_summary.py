@@ -10,10 +10,10 @@ def five_number_summary(list1):
   #min
   min_val = min(list1)
 
-  #lower quartile
+  #lower quartile not the correct way
   q1 = round((25/100)*(max_val + min_val),2)
   
-  #upper quartile
+  #upper quartile not the correct way
   q3 = round((75/100)*(max_val + min_val),2)
 
   return ({'Minimum':min_val,'Lower quartile':q1,'Median':median,'Upper quartile':q3,'Maximum':max_val})
